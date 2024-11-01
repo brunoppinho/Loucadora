@@ -9,7 +9,7 @@ import tech.pinhos.loucadora.service.CreatePersonService;
 import tech.pinhos.loucadora.service.RetrievePersonService;
 
 @RestController()
-@RequestMapping("api/v1/persons")
+@RequestMapping("api/v1/pessoas")
 public class PersonController {
 
     private final CreatePersonService createPersonService;
